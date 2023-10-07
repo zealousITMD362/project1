@@ -9,29 +9,30 @@
 </head>
 <body>
 <main id="content">
-  <h1>Title</h1>
+  <h1>Sign up to get free things!</h1>
+    <p>All forms must be filled to be submitted</p>
     <form>
       <div id="firstName">
         <label for="fname">Enter your first name:</label>
-        <input type="text" id="fname" name="fname">
+        <input type="text" id="fname" name="fname" required>
       </div>
       <div id="lastName">
         <label for="lname">Enter your last name:</label>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname" required>
       </div>
       <div id="emailgroup">
         <label for="email">Enter your email:</label>
-        <input type="email" id="email" maxlength="50">
+        <input type="email" id="email" maxlength="50" required>
       </div>
       <div id="phonegroup">
         <label for="phone">Enter your phone number:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
       </div>
       <div id="birthgroup">
-        <label for="birthday">Optional: Enter your birthday for a free gift!</label>
-        <input type="date" id="birthday" name="birthday">
+        <label for="birthday">Enter your birthday for the gift!</label>
+        <input type="date" id="birthday" name="birthday" required>
       </div>
-        <input type="submit" value="Submit">
+        <input type="submit" name="submit id="submit" value="Submit">
     </form>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

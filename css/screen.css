@@ -1,0 +1,21 @@
+html {
+  background-color: #F4F1DE;
+  color: #3D405B;
+}
+h1 {
+  display: block;
+  background-color: #81B29A;
+  font-size: 2em;
+  padding-bottom: 1.2em;
+  padding-top: 1.2em;
+  line-height: 1.9em;
+}
+#submit {
+  background-color: #E07A5F;
+}
+input {
+  border-color: #E07A5F;
+}
+alert {
+  color: #E07A5F;
+}
