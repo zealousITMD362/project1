@@ -42,9 +42,10 @@ form {
   display: block;
   float: left;
 }
-/*img {
-  
-}*/
+img {
+  display: block;
+  position: relative;
+}
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
   h1 {
