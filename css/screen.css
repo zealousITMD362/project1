@@ -45,6 +45,7 @@ form {
 img {
   display: block;
   position: relative;
+  width: 50%;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
@@ -72,6 +73,13 @@ img {
   p {
     font-size: 1.4em;
   }
+  img {
+    display: grid;
+  }
+  form {
+    display: grid;
+    float: none;
+  }
 }
 @media (max-width: 900px) and (min-width: 1px) {
   h1 {
@@ -90,5 +98,12 @@ img {
   }
   p {
     font-size: 1.4em;
+  }
+  img {
+    display: grid;
+  }
+  form {
+    display: grid;
+    float: none;
   }
 }
