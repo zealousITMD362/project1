@@ -10,23 +10,22 @@ html {
 main {
   width: 1000px;
   margin: auto;
-  text-align: center;
+  text-align: left;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 h1 {
   display: block;
   background-color: #81B29A;
-  font-size: 2em;
-  padding-bottom: 1.2em;
-  padding-top: 1.2em;
+  font-size: 3em;
+  padding: 1.2em;
   line-height: 1.9em;
+  text-align: center;
 }
 #submitgroup input {
   background-color: #81B29A;
   color: #3D405B;
-  height: 2em;
-  width: 3em
+  text-align: center;
 }
 input {
   border-color: #E07A5F;
@@ -34,7 +33,10 @@ input {
 alert {
   color: #E07A5F;
 }
-
+p {
+  padding: 1em;
+  
+}
 /* media queries*/
 @media (hover: hover) {
   #submitgroup input {
@@ -43,8 +45,34 @@ alert {
   }
 }
 @media (max-width: 1200px) and (min-width: 901px) {
-  
+  h1 {
+    font-size: 2em;
+    border: solid;
+    border-color: #E07A5F;
+    text-decoration: underline;
+  }
+  main {
+    width: 800px;
+    border: solid;
+    border-color: #E07A5F;
+  }
+  html {
+    background-color: #81B29A;
+  }
+  #submitgroup input {
+    background-color: #F4F1DE;
+    color: #E07A5F;
+  }
 }
 @media (max-width: 900px) {
-  
+  h1 {
+    font-size: 2em;
+    background-color: #F4F1DE;
+  }
+  main {
+    width: 600px;
+  }
+  html {
+    background-color: #81B29A;
+  }
 }
