@@ -13,6 +13,7 @@ main {
   text-align: left;
   display: block;
   flex-wrap: nowrap;
+  padding: 1.2em;
 }
 h1 {
   display: block;
@@ -36,6 +37,9 @@ p {
 #birthgroup {
   padding-bottom: 1.2em;
 }
+#submit {
+  background-color: #81B29A
+}
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
   h1 {
@@ -48,6 +52,7 @@ p {
     width: 800px;
     display: grid;
     background-color: #F4F1DE;
+    padding: 1.2em;
   }
   html {
     background-color: #81B29A;
@@ -55,6 +60,9 @@ p {
   }
   p {
     font-size: 1.4em;
+  }
+  #submit {
+    background-color: #81B29A;
   }
 }
 @media (max-width: 900px) and (min-width: 1px) {
@@ -67,6 +75,7 @@ p {
   main {
     width: 75%;
     display: grid;
+    padding: 1.2em;
   }
   html {
     background-color: #81B29A;
@@ -74,5 +83,8 @@ p {
   }
   p {
     font-size: 1.4em;
+  }
+  #submit {
+    background-color: #F4F1DE;
   }
 }
