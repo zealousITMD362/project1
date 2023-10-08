@@ -58,7 +58,7 @@ p {
     font-size: 1.2em;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 1px) {
   h1 {
     font-size: 2em;
     background-color: #F4F1DE;
