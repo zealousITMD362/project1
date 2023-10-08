@@ -1,6 +1,7 @@
 html {
   background-color: #F4F1DE;
   color: #3D405B;
+  font-family: 'Fanwood Text', Georgia, Garamond, serif;
 }
 h1 {
   display: block;
@@ -18,4 +19,15 @@ input {
 }
 alert {
   color: #E07A5F;
+}
+
+/* media queries*/
+@media (hover: hover) {
+  
+}
+@media (max-width: 1200px) and (min-width: 901px) {
+  
+}
+@media (max-width: 900px) {
+  
 }
