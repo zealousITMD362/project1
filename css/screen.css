@@ -11,7 +11,7 @@ main {
   width: 1000px;
   margin: auto;
   text-align: left;
-  display: flex;
+  display: block;
   flex-wrap: nowrap;
 }
 h1 {
@@ -35,26 +35,19 @@ alert {
 }
 p {
   padding: 1em;
-  
+  font-size: 1.75em;
 }
 /* media queries*/
-@media (hover: hover) {
-  #submitgroup input {
-    background-color: #C3EBD7;
-    box-shadow: 5px 5px 5px #3D405B;
-  }
-}
 @media (max-width: 1200px) and (min-width: 901px) {
   h1 {
     font-size: 2em;
-    border: solid;
-    border-color: #E07A5F;
     text-decoration: underline;
+    display: grid;
   }
   main {
     width: 800px;
-    border: solid;
-    border-color: #E07A5F;
+    display: grid;
+    background-color: #F4F1DE;
   }
   html {
     background-color: #81B29A;
@@ -63,16 +56,25 @@ p {
     background-color: #F4F1DE;
     color: #E07A5F;
   }
+  p {
+    font-size: 1.2em;
+  }
 }
 @media (max-width: 900px) {
   h1 {
     font-size: 2em;
     background-color: #F4F1DE;
+    text-decoration: underline;
+    display: grid;
   }
   main {
-    width: 600px;
+    width: 75%;
+    display: grid;
   }
   html {
     background-color: #81B29A;
+  }
+  p {
+    font-size: 1.2em;
   }
 }
