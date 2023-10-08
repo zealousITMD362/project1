@@ -2,6 +2,17 @@ html {
   background-color: #F4F1DE;
   color: #3D405B;
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
+  font-size: 1.4em; 
+  line-height: 1.2em; 
+  padding: 1.2em; 
+  text-rendering: optimizeLegibility;
+}
+main {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
   display: block;
@@ -11,8 +22,11 @@ h1 {
   padding-top: 1.2em;
   line-height: 1.9em;
 }
-#submit {
-  background-color: #E07A5F;
+#submitgroup input {
+  background-color: #81B29A;
+  color: #3D405B;
+  height: 2em;
+  width: 3em
 }
 input {
   border-color: #E07A5F;
@@ -23,7 +37,10 @@ alert {
 
 /* media queries*/
 @media (hover: hover) {
-  
+  #submitgroup input {
+    background-color: #C3EBD7;
+    box-shadow: 5px 5px 5px #3D405B;
+  }
 }
 @media (max-width: 1200px) and (min-width: 901px) {
   
