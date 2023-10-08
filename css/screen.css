@@ -22,10 +22,6 @@ h1 {
   line-height: 1.9em;
   text-align: center;
 }
-#submitgroup input {
-  background-color: #81B29A;
-  color: #3D405B;
-  text-align: center;
 }
 input {
   border-color: #E07A5F;
@@ -36,6 +32,7 @@ alert {
 p {
   padding: 1em;
   font-size: 1.75em;
+  text-align: center;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
@@ -43,6 +40,7 @@ p {
     font-size: 2em;
     text-decoration: underline;
     display: grid;
+    background-color: #F4F1DE;
   }
   main {
     width: 800px;
