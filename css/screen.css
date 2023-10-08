@@ -18,8 +18,7 @@ h1 {
   display: block;
   background-color: #81B29A;
   font-size: 3em;
-  padding: 1.2em;
-  line-height: 1.9em;
+  padding: 0.75em;
   text-align: center;
 }
 input {
@@ -37,6 +36,15 @@ p {
 #birthgroup {
   padding-bottom: 1.2em;
 }
+form {
+  width: 50%;
+  padding-right: 5px;
+  display: block;
+  float: left;
+}
+/*img {
+  
+}*/
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
   h1 {
