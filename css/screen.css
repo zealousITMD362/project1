@@ -39,45 +39,30 @@ p {
 }
 #submit {
   padding: 0.25em;
-  float: right;
+  grid-column: 3 / 3;
+  align-self: start;
 }
-#firstName {
-  padding-bottom: 10px;
-  display: block;
+#firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input {
+  display: inline-block;
+  grid-column: 2 / 3;
+  align-self: start;
+  justify-self: left;
 }
-#lastName {
-  padding-bottom: 10px;
-  display: block;
-}
-#emailgroup {
-  padding-bottom: 10px;
-  display: block;
-}
-#phonegroup {
-  padding-bottom: 10px;
-  display: block;
-}
-#birthgroup {
-  padding-bottom: 10px;
-}
-#submit-input {
-  padding-bottom: 10px;
-  display: block;
-}
-input {
-  display: block;  
+form {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 /* media queries*/
-@media (max-width: 1200px) and (min-width: 601px) {
+@media (max-width: 1200px) and (min-width: 600px) {
   h1 {
     font-size: 2em;
     text-decoration: underline;
     display: grid;
-    background-color: #F4F1DE;
   }
   main {
     width: 90%;
-    background-color: #F4F1DE;
     padding: 1.2em;
   }
   html {
@@ -86,6 +71,32 @@ input {
   }
   p {
     font-size: 1.4em;
+  }
+  #firstName {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #lastName {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #emailgroup {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #phonegroup {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #birthgroup {
+    padding-bottom: 10px;
+  }
+  #submit-input {
+    padding-bottom: 10px;
+    display: block;
+  }
+  input {
+    display: block;  
   }
 }
 @media (max-width: 600px) and (min-width: 1px) {
@@ -110,5 +121,31 @@ input {
   #submit-input input {
     width: 8px;
     height: 7px;
+  }
+  #firstName {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #lastName {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #emailgroup {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #phonegroup {
+    padding-bottom: 10px;
+    display: block;
+  }
+  #birthgroup {
+    padding-bottom: 10px;
+  }
+  #submit-input {
+    padding-bottom: 10px;
+    display: block;
+  }
+  input {
+    display: block;  
   }
 }
