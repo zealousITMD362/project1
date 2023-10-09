@@ -40,7 +40,7 @@ p {
 #submit {
   display: block;
   float: right;
-  margin-top: 10px;
+  margin-top: 4em;
 }
 #firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input {
   display: inline-block;
@@ -67,6 +67,7 @@ form {
     font-size: 2.5em;
     text-decoration: underline;
     display: grid;
+    line-height: 2.2em;
   }
   main {
     width: 90%;
@@ -122,7 +123,7 @@ form {
     background-color: #F4F1DE;
     text-decoration: underline;
     display: grid;
-    line-height: 1.9em;
+    line-height: 1.8em;
   }
   main {
     width: 80%;
@@ -134,6 +135,7 @@ form {
   }
   p {
     font-size: 1.4em;
+    line-height: 1.2em;
   }
   #submit-input input {
     width: 8px;
