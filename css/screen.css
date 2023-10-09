@@ -53,15 +53,16 @@ footer {
 }
 a {
   color: #E07A5F;
-}
-h3, h4 {
   font-size: 1em;
   font-style: italic;
-  padding: 0.25;
+  padding: 0.25em;
   padding-left: 1.5em;
 }
-h4 {
-  color: #E07A5F;
+h3 {
+  font-size: 1em;
+  font-style: italic;
+  padding: 0.25em;
+  padding-left: 1.5em;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
@@ -88,7 +89,7 @@ h4 {
     background-color: #F4F1DE;
     width: 100%;
   }
-  h3, h4 {
+  h3 {
     font-size: 1em;
     font-style: italic;
   }
@@ -117,7 +118,7 @@ h4 {
     background-color: #F4F1DE;
     width: 100%;
   }
-  h3, h4 {
+  h3 {
     font-size: 1em;
     font-style: italic;
   }
