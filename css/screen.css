@@ -41,29 +41,32 @@ p {
   padding: 0.25em;
   float: right;
 }
-label {
-  padding-bottom: 2em;
+#firstName {
+  padding-bottom: 5px;
+  display: inline-block;
 }
-footer {
-  background-color: #81B29A;
-  width: 100%;
-  display: grid;
-  margin: auto;
+#lastName {
+  padding-bottom: 5px;
+  display: inline-block;
 }
-a {
-  color: #E07A5F;
-  font-size: 1em;
-  font-style: italic;
-  padding: 0.25em;
-  padding-left: 1.5em;
+#emailgroup {
+  padding-bottom: 5px;
+  display: inline-block;
 }
-h3 {
-  font-size: 1em;
-  font-style: italic;
-  padding: 0.25em;
-  padding-left: 1.5em;
+#phonegroup {
+  padding-bottom: 5px;
+  display: inline-block;
 }
-
+#birthgroup {
+  padding-bottom: 5px;
+}
+#submit-input {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+input {
+  display: inline-block;  
+}
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 601px) {
   h1 {
@@ -84,14 +87,6 @@ h3 {
   p {
     font-size: 1.4em;
   }
-  footer {
-    background-color: #F4F1DE;
-    width: 100%;
-  }
-  h3 {
-    font-size: 1em;
-    font-style: italic;
-  }
 }
 @media (max-width: 600px) and (min-width: 1px) {
   h1 {
@@ -111,14 +106,6 @@ h3 {
   }
   p {
     font-size: 1.4em;
-  }
-  footer {
-    background-color: #F4F1DE;
-    width: 100%;
-  }
-  h3 {
-    font-size: 1em;
-    font-style: italic;
   }
   #submit-input input {
     width: 8px;
