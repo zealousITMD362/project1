@@ -47,8 +47,8 @@ label {
 footer {
   background-color: #81B29A;
   width: 100%;
-  margin: 0;
   display: grid;
+  margin: auto;
 }
 a {
   color: #E07A5F;
@@ -73,8 +73,7 @@ h3 {
     background-color: #F4F1DE;
   }
   main {
-    width: (100% - 20px);
-    display: grid;
+    width: 90%;
     background-color: #F4F1DE;
     padding: 1.2em;
   }
@@ -103,8 +102,7 @@ h3 {
     line-height: 1.9em;
   }
   main {
-    width: calc(100% - 15px);
-    display: grid;
+    width: 80%;
     padding: 1.2em;
   }
   html {
