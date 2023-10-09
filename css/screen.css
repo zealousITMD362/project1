@@ -65,6 +65,11 @@ h3 {
 }
 input {
   float: right;
+  display: block;
+}
+label {
+  display: block;
+  float: left;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 601px) {
@@ -75,7 +80,7 @@ input {
     background-color: #F4F1DE;
   }
   main {
-    width: 800px;
+    width: (100% - 20px);
     display: grid;
     background-color: #F4F1DE;
     padding: 1.2em;
@@ -132,8 +137,5 @@ input {
     font-size: 1.05em;
     width: fit-content;
     display: block;
-  }
-  input {
-    margin: 0.25em 0;
   }
 }
