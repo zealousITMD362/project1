@@ -42,30 +42,30 @@ p {
   float: right;
 }
 #firstName {
-  padding-bottom: 5px;
-  display: inline-block;
+  padding-bottom: 10px;
+  display: block;
 }
 #lastName {
-  padding-bottom: 5px;
-  display: inline-block;
+  padding-bottom: 10px;
+  display: block;
 }
 #emailgroup {
-  padding-bottom: 5px;
-  display: inline-block;
+  padding-bottom: 10px;
+  display: block;
 }
 #phonegroup {
-  padding-bottom: 5px;
-  display: inline-block;
+  padding-bottom: 10px;
+  display: block;
 }
 #birthgroup {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 #submit-input {
-  padding-bottom: 5px;
-  display: inline-block;
+  padding-bottom: 10px;
+  display: block;
 }
 input {
-  display: inline-block;  
+  display: block;  
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 601px) {
