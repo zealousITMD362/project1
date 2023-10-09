@@ -7,13 +7,13 @@
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" media="screen" href="css/screen.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async="async"></script>
-  <script src="js/site.js" async="async" ></script>
+  <script src="js/site.js"></script>
 </head>
 <body>
 <main id="content">
   <h1>Sign up to get free things!</h1>
     <p>All forms must be filled to be submitted.</p>
-    <form>
+    <form method="get" action="#null">
       <div id="firstName">
         <label for="fname">Enter your first name: </label>
         <input type="text" id="fname" name="fname" required>
@@ -34,7 +34,7 @@
         <label for="birthday">Enter your birthday for the gift! </label>
         <input type="date" id="birthday" name="birthday" required>
       </div>
-      <input type="submit" name="submit id="submit" value="Submit">
+      <input type="submit" name="submit" id="submit" value="Submit">
     </form>
 </main>
   <footer id="indexfoot">
