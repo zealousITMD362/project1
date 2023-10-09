@@ -42,7 +42,7 @@ p {
   float: right;
 }
 label {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 footer {
   background-color: #81B29A;
@@ -63,14 +63,7 @@ h3 {
   padding: 0.25em;
   padding-left: 1.5em;
 }
-input {
-  float: right;
-  display: block;
-}
-label {
-  display: block;
-  float: left;
-}
+
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 601px) {
   h1 {
@@ -132,10 +125,5 @@ label {
   #submit-input input {
     width: 8px;
     height: 7px;
-  }
-  label {
-    font-size: 1.05em;
-    width: fit-content;
-    display: block;
   }
 }
