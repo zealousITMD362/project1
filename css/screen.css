@@ -39,12 +39,17 @@ p {
 }
 #submit {
   padding: 0.25em;
+  float: right;
 }
 label {
   padding-bottom: 1em;
 }
 footer {
   background-color: #81B29A;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5em;
+  width: 1000px;
 }
 a {
   color: E07A5F;
@@ -52,6 +57,7 @@ a {
 h3, h4 {
   font-size: 1em;
   font-style: italic;
+  padding: 0.25;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 901px) {
@@ -76,6 +82,7 @@ h3, h4 {
   }
   footer {
     background-color: #81B29A;
+    width: 800px;
   }
   a {
     color: E07A5F;
@@ -107,6 +114,7 @@ h3, h4 {
   }
   footer {
     background-color: #F4F1DE;
+    width: 75%;
   }
   a {
     color: E07A5F;
