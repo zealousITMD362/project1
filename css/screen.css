@@ -59,7 +59,7 @@ form {
   display: grid;
   justify-items: end;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: top;
+  align-items: stretch;
 }
 /* media queries*/
 @media (max-width: 1200px) and (min-width: 600px) {
