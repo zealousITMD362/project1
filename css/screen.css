@@ -62,7 +62,7 @@ form {
   align-items: stretch;
 }
 /* media queries*/
-@media (max-width: 1200px) and (min-width: 600px) {
+@media (min-width: 600px) {
   h1 {
     font-size: 2.5em;
     text-decoration: underline;
@@ -106,7 +106,8 @@ form {
     display: block;
   }
   input {
-    display: block;  
+    display: block; 
+    width: 90%;    
   }
   #firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input {
     display: block;
@@ -121,7 +122,7 @@ form {
     margin-top: 2em;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 200px) {
   h1 {
     font-size: 2em;
     background-color: #F4F1DE;
@@ -169,7 +170,8 @@ form {
     display: block;
   }
   input {
-    display: block;  
+    display: block; 
+    width: 90%;
   }
   #firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input {
     display: block;
