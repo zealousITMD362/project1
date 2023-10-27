@@ -162,7 +162,7 @@ form {
   }
   input {
     border-color: #E07A5F;
-    width: 20 px; 
+    width: 210 px; 
   }
   alert {
     color: #E07A5F;
@@ -181,7 +181,7 @@ form {
     float: right;
     margin-top: 4em;
   }
-  #firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input {
+  #firstName input, #lastName input, #birthgroup input, #emailgroup input, #phonegroup input, #input-submit input {
     display: inline-block;
     grid-column: 2 / 3;
     align-self: start;
