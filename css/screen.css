@@ -25,8 +25,8 @@ p {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-#submit-input input {
-  width: 100px;
+#submit input {
+  width: 150px;
 }
 #firstName {
   padding-bottom: 10px;
